@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="lib" path="lib/h2-1.3.176.jar"/>
+    <classpathentry kind="src" path="src"/>
+    <classpathentry kind="output" path="bin"/>
+    <classpathentry kind="src" path="src/gui"/> 
+    <classpathentry kind="src" path="src/dao"/> 
+    <classpathentry kind="src" path="src/entidad"/>
+    <classpathentry kind="src" path="src/misc"/>
+    <classpathentry kind="src" path="src/panels"/>
+    <classpathentry kind="src" path="src/service"/>
+    <classpathentry kind="src" path="src/tableModels"/>
+    
+</classpath>

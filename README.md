@@ -17,6 +17,11 @@ Aunque demuestra capacidades funcionales y técnicas, debe considerarse como un 
 - **Base de datos H2**: Utiliza H2 para el almacenamiento local de datos
 - **Gestión de Sesiones**: Permite el manejo de sesiones de usuarios, asegurando una experiencia segura y personalizada.
 
+## Demo
+- para iniciar la demo es necesario ejecutar primero la base de datos mediante el archivo situado en h2\bin\h2.bat luego de ejecutar ese archivo puede correr el programa normalmente (es necesario para el inicio de sesion)
+el usuario administrador tiene **dni 1 y contraseña admin**
+- en src/misc esta situada la clase dbcreate que contiene el codigo para crear la base de datos en caso de que no este cargada
+
 ## Imagenes
 - Manejo de sesiones mediante un login simple
 ![Manejo de sesiones mediante un login simple](/imagenes/login.png)

@@ -6,13 +6,16 @@ package gui;
 //import java.sql.SQLException;
 //import misc.DBCreate;
 
+
+
 public class Main {
 
 	
 	    public static void main(String[] args)  {//tira exeption
 	    	
 	    	//cargar y crear tablas aux
-	    	
+	    	// Iniciar la base de datos H2 en modo servidor
+			
 			
 	    	
 	    	try {
@@ -21,6 +24,7 @@ public class Main {
 				//db.crearTablaMedicos();
 				//db.crearTablaMedicos();
 				//db.cargarAdmin();
+			
 				
 			} catch (Exception e) {
 				// TODO: handle exception

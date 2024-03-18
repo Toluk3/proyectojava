@@ -46,7 +46,7 @@ public class ReporteMedicosEntreFechas extends JPanel implements ActionListener 
         this.errorDisplay.setForeground(Color.green);
     	
     	
-    	// Configuración del panel y sus componentes aquí
+    	// Configuraciï¿½n del panel y sus componentes aquï¿½
     	
     	
     	this.setLayout(new FlowLayout());
@@ -108,33 +108,33 @@ public class ReporteMedicosEntreFechas extends JPanel implements ActionListener 
     	String[] auxFechainit= fechaInicio.split("/");
     	String[] auxFechafin= fechaFin.split("/");
     	
-    	int añoInicio= Integer.parseInt(auxFechainit[2]);
+    	int anoInicio= Integer.parseInt(auxFechainit[2]);
 		int mesInicio= Integer.parseInt(auxFechainit[1]);
 		int diaInicio= Integer.parseInt(auxFechainit[0]);
-		int añoFin= Integer.parseInt(auxFechafin[2]);
+		int anoFin= Integer.parseInt(auxFechafin[2]);
 		int mesFin= Integer.parseInt(auxFechafin[1]);
 		int diaFin= Integer.parseInt(auxFechafin[0]);
 		
     	for (Turno tur:listaTurnos) {
     		System.out.println(tur.getFecha());
     		String[] auxFecha=tur.getFecha().split("/");
-    		int añoTurno= Integer.parseInt(auxFecha[2]);
+    		int anoTurno= Integer.parseInt(auxFecha[2]);
     		int mesTurno= Integer.parseInt(auxFecha[1]);
     		int diaTurno= Integer.parseInt(auxFecha[0]);
     		System.out.println(fechaFinTextField.getText());
     		if(tur.getLegajoMedico()==leg) {
-    			if(estaDentroDelRango(añoTurno, mesTurno, diaTurno, añoInicio, mesInicio, diaInicio, añoFin, mesFin, diaFin))
+    			if(estaDentroDelRango(anoTurno, mesTurno, diaTurno, anoInicio, mesInicio, diaInicio, anoFin, mesFin, diaFin))
 		                    total=total+1;
     		}
     	}
         return total; 
     }
-    private boolean estaDentroDelRango(int añoTurno, int mesTurno, int diaTurno, int añoInicio, int mesInicio, int diaInicio, int añoFin, int mesFin, int diaFin) {
-        if (añoTurno < añoInicio || añoTurno > añoFin) {return false;}
-        if (añoTurno == añoInicio && mesTurno < mesInicio) {return false;}
-        if (añoTurno == añoInicio && mesTurno == mesInicio && diaTurno < diaInicio) {return false;}
-        if (añoTurno == añoFin && mesTurno > mesFin) {return false;}
-        if (añoTurno == añoFin && mesTurno == mesFin && diaTurno > diaFin) {return false;}
+    private boolean estaDentroDelRango(int anoTurno, int mesTurno, int diaTurno, int anoInicio, int mesInicio, int diaInicio, int anoFin, int mesFin, int diaFin) {
+        if (anoTurno < anoInicio || anoTurno > anoFin) {return false;}
+        if (anoTurno == anoInicio && mesTurno < mesInicio) {return false;}
+        if (anoTurno == anoInicio && mesTurno == mesInicio && diaTurno < diaInicio) {return false;}
+        if (anoTurno == anoFin && mesTurno > mesFin) {return false;}
+        if (anoTurno == anoFin && mesTurno == mesFin && diaTurno > diaFin) {return false;}
         return true;
     }
 

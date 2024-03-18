@@ -25,8 +25,8 @@ el usuario administrador tiene **dni 1 y contraseña admin**
 ## Imagenes
 - Manejo de sesiones mediante un login simple
 ![Manejo de sesiones mediante un login simple](/imagenes/login.png)
-- administracion de turnos, con validadores correspondientes
+- Administracion de turnos, con validadores correspondientes
 ![administracion de turnos, con validadores correspondientes](/imagenes/turno.png)
-- arbol de archivos que demuestra el modelo de las 3 capas para aplicaciones
+- Arbol de archivos que demuestra el modelo de las 3 capas para aplicaciones
 ![arbol de archivos que demuestra el modelo de las 3 capas para aplicaciones](/imagenes/archivos.png)
 

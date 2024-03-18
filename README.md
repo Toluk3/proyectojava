@@ -5,12 +5,8 @@ Este proyecto es una aplicación de turnera médica desarrollada en Java, diseñ
 
 ## Características
 - **Programación Orientada a Objetos**: El proyecto está estructurado en torno a principios de OOP, lo que facilita la organización, modularidad y escalabilidad del código.
-- **Interfaces y Clases Abstractas**: Se utilizan para definir estructuras comunes y promover una arquitectura robusta y flexible.
-- **Interfaz Gráfica con Swing**: Proporciona una interfaz de usuario intuitiva y amigable para interactuar con el sistema de turnos y la gestión de pacientes.
-- **Base de datos H2**: Utiliza H2 para el almacenamiento local de datos, permitiendo una gestión eficiente de la información de turnos y pacientes.
+- **Interfaces y Clases Abstractas**: Se utilizan para definir estructuras comunes que permiten reciclar codigo y comunicacion entre capas(DAO a Service).
+- **Interfaz Gráfica con Swing**: Proporciona una interfaz de usuario basica como para la demostracion.
+- **Base de datos H2**: Utiliza H2 para el almacenamiento local de datos
 - **Gestión de Sesiones**: Permite el manejo de sesiones de usuarios, asegurando una experiencia segura y personalizada.
 
-## Cómo empezar
-Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
-
-1. Clona el repositorio en tu máquina local:

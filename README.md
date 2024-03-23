@@ -11,7 +11,7 @@ Aunque demuestra capacidades funcionales y técnicas, debe considerarse como un 
 
 ## Características
 - **Programación Orientada a Objetos**: El proyecto está estructurado en torno a principios de OOP, lo que facilita la organización, modularidad y escalabilidad del código.
-- **Arquitectura en tres capas modular**: El proyecto emplea la arquitectura de tres capas, utilizando entidades para modelar los datos, DAOs (Objetos de Acceso a Datos) para la interacción con la base de datos, y servicios que facilitan la comunicación entre los DAOs y los paneles de la interfaz de usuario de Swing. Esta estructura asegura una clara separación de responsabilidades, mejorando la organización del código y facilitando su mantenimiento y escalabilidad.
+- **Arquitectura en tres capas modular**: El proyecto emplea la arquitectura de tres capas, utilizando entidades para modelar los datos, DAOs (Objetos de Acceso a Datos) para la interacción con la base de datos, y servicios que facilitan la comunicación entre los DAOs y los paneles de la interfaz de usuario (que solo utilizan la biblioteca de Swing). Esta estructura asegura una clara separación de responsabilidades, mejorando la organización del código y facilitando su mantenimiento y escalabilidad.
 - **Interfaces y Clases Abstractas**: Se utilizan para definir estructuras comunes que permiten reciclar codigo y comunicacion servicios.
 - **Interfaz Gráfica con Swing**: Proporciona una interfaz de usuario basica como para la demostracion.
 - **Base de datos H2**: Utiliza H2 para el almacenamiento local de datos
